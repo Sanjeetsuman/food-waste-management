@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <!--<div class="">
+<img src="/logof.png"width="50px" height="30Spx"  />
+</div>-->
+    <title>Food Waste Management</title>
+  </head>
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="/logof.png"width="50px" height="30Spx"  />
+        <a class="navbar-brand" href="#"> FOOD WASTE </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" target="_blank">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" target="_blank">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="available food.html" tabindex="_blank">AvailableFood</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/donor.html" target="_blank">Donor</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sign-in / Sign-out
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/sign.html">Sign-in</a></li>
+                <li><a class="dropdown-item" href="#">Sign-out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile" onclick="menuToggle();">
+        <img src="imgs/user.png" alt="">
+    </div>
+    </nav>
+    <!-- user icon and store user information -->
+    <div>
+      <div class="action">
+        <!-- <div class="profile" onclick="menuToggle();">
+            <img src="imgs/user.png" alt="">
+        </div> -->
+  
+        <div class="menu">
+            <h3>
+                User Account
+                <div>
+                    Operational Team
+                </div>
+            </h3>
+            <ul>
+                <li>
+                    <a href="#">My Profile</a>
+                </li>
+                <li>
+                    <a href="#">Edit Account</a>
+                </li>
+                
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+    </div>
+   <!-- usermane and password -->
+    <div>
+      <style>
+        body {
+          background-color: #f5f5f5;
+        }
+        .form-signin {
+          max-width: 330px;
+          padding: 30px;
+          margin: 0 auto;
+        }
+        .form-signin .form-control {
+          position: relative;
+          box-sizing: border-box;
+          height: auto;
+          padding: 10px;
+          font-size: 16px;
+        }
+        .form-signin .form-control:focus {
+          z-index: 2;
+        }
+        .form-signin input[type="text"] {
+          margin-bottom: -1px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+        .form-signin input[type="password"] {
+          margin-bottom: 10px;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+      </style>
+    </head>
+    <body>
+      <div>
+      <form class="form-signin" action="login.php" method="post">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+       <a href="available food.html" target="_blank" ><button type="button" class="btn btn-primary btn-lg">Login</button>
+
+       </a>
+      </div>
+      <!-- Footer bar-->
+      <footer class="bg-info text-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <p>+919693392924</p>
+              <p>+919444748612</p>
+              <p>+918668194709</p>
+              <p class="text-light">sanjeetkumar00021@gmail.com</p>
+              <p class="fas fa-envelope">shiva47789@gmail.com</p>
+              <p class="fas fa-phone">sundarsubu14@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>
+                <li>
+                  Once upon a time, there was a small town where food waste was a big problem. Every day,
+                   tons of perfectly good food was thrown away, causing environmental harm and social injustice.
+                   But one day, a group of concerned citizens decided to take action.
+                </li>
+                <li>
+                  They formed a food waste management project with the goal of reducing food waste and redistributing surplus food to those in need. 
+                  They started by partnering with local grocery stores, restaurants, and farmers markets to collect their excess food.
+                   Instead of throwing it away, they distributed the food to local food banks and shelters.
+                </li>
+              </p>
+            </div>
+            <div>
+              <h5>IMPORTANT PAGES </h5>
+              <li> Submit Your Requirements</li>
+              <li> Testimonials </li>
+              <li> How it Works </li>
+              <li> Blog</li>
+              <li> Data mining Project Ideas </li>
+              <li> Database Project Ideas </li>
+              <li> JavaScript Ideas  </li>
+              <li> Computer Science Project Ideas  </li>
+            </div>
+            <div class="col-md-4 mt-3 ms-1 px-2 " >
+              <h5>Feedback</h5>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <!-- social media icon -->
+                <div>
+                  <div>
+                    <div class="container text-center mt-2 pt-3 " padding-bottom: 20px;>
+                      <div class="/socilimg/733635.png">
+                        <a href="https://www.facebook.com/sanjeet.sunan.5?mibextid=ZbWKwL" target="_blank"><img src="socilimg/4494475.png" height="40px" width="40px" alt="Facebook icon"></a>
+                        <a href="https://twitter.com/sanjeet59617081?t=x9mE-KkdTT5IB0oNeFwhAQ&s=09" target="_blank"><img src="socilimg/4138126.png" height="40px" width="40px" alt="Twitter icon"></a>
+                        <a href="https://instagram.com/sanjeet_suman_01?igshid=NzMyMjgxZWIzNw==" target="_blank"><img src="socilimg/2111463.png"   height="40px" width="40px" alt="Instagram icon"></a>
+                        <a href="https://github.com/Sanjeetsumans" target="_blank"><img src="socilimg/download.png" height="40px" width="40px" alt="github icon"></a>
+                        <a href="https://www.linkedin.com/in/sanjeet-kumar-832817252/" target="_blank"><img src="socilimg/linkedin.png" height="40px" width="40px" alt="github icon"></a>
+                        
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <!-- jQuery and Bootstrap JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSfWWa"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRib
+      
+        <script src="main.js"></script>
+      <script src="/mn.js"></script>
+        
+    </div>
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+    
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

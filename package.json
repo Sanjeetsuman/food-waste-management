@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.5",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0"
+  },
+  "name": "food-waste-management",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "no",
+  "license": "ISC",
+  "description": "waste food collect website",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sanjeetsuman/waste-food-management.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sanjeetsuman/waste-food-management/issues"
+  },
+  "homepage": "https://github.com/Sanjeetsuman/waste-food-management#readme"
+}

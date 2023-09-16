@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    background-color:none;
+    padding: 5.5px;
+}
+.lh-1{
+margin: 15px;
+padding: 10x;
+text-align: justify;
+color: #d26410;
+}
+
+.payment-form {
+    background-color: #159797;
+    padding: 20px;
+    border-radius: 4px;
+    margin: none;
+    height: 200;
+    width: 750px;
+    justify-content: center;
+  }
+  
+  .payment-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form input {
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .payment-form button header {
+    background-color: rgb(11, 96, 11);
+    color: #6e1616;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 576px) {
+    .payment-form {
+      width: 100%;
+    }
+  }
+  /* donor img and Feedback */
+  .donor-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .donor-img img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .donor-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .donor-story {
+    font-size: 1rem;
+    margin-bottom: 0;
+
+  }
+  
+  /*  Singing form in css */
+
+  

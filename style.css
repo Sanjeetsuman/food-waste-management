@@ -1,0 +1,182 @@
+*:hover{
+margin: none;
+padding: 0;
+background-color: none;
+
+}
+/* about section  */
+#about {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+  /* Socal media icon*/
+  .im-4{
+    background-color: aliceblue;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .social-icons a.facebook  {
+    background-color: rgb(19, 131, 179) ;
+  }
+  
+  .social-icons a.instagram {
+    background-color: #c13584;
+  }
+  
+  .social-icons a.twitter {
+    background-color: #1da1f2;
+  }
+  .social-icons a.github {
+    background-color: #8d0d4b;
+  }
+  
+  /* contact page css */
+.pxxxy{
+  background-color: #1da1f2;
+  height: 200px;
+}
+/*use some information icon*/
+*{
+  font-family: "poppins", sans-serif;
+  margin: 3px;
+  padding: 0;
+}
+body{
+  background-color: #333;
+  height: 100vh;
+}
+.icons-size{
+  color: #333;
+  font-size: 14px;
+}
+.action{
+  position: fixed;
+  right: 15px;
+  top:15px
+}
+.action .profile{
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 50px;
+}
+.action .profile img{
+  width: 60%;
+  top:0;
+  position: absolute;
+  object-fit: cover;
+  left: 20px;
+  height: 70%;
+}
+.action .menu{
+  background-color:#FFF;
+  box-sizing:0 5px 25px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  padding: 10px 20px;
+  position: absolute;
+  right: -10px;
+  width: 200px;
+  transition: 0.5s;
+  top: 120px;
+  visibility: hidden;
+  opacity: 0;
+}
+.action .menu.active{
+  opacity: 1;
+  top: 80px;
+  visibility: visible;
+}
+.action .menu::before{
+  background-color:#fff;
+  content: '';
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  transform:rotate(45deg);
+  top:-5px;
+  width: 20px;
+}
+.action .menu h3{
+  color: #555;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding: 20px 0px;
+  text-align: left;
+  width: 100%;
+}
+.action .menu h3 div{
+  color: #818181;
+  font-size: 14px;
+  font-weight: 400;
+}
+.action .menu ul li{
+  align-items: center;
+  border-top:1px solid rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding: 10px 0px;
+}
+.action .menu ul li img{
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition:0.5s
+}
+.action .menu ul li a{
+  display: inline-block;
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.action .menu ul li:hover img{
+  opacity: 1;
+}
+.action .menu ul li:hover a{
+  color:#ff00ff;
+}
+
+
